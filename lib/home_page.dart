@@ -75,7 +75,7 @@ class ScheduleBtn extends StatelessWidget {
       onPressed: () {
         debugPrint('Notification Scheduled for $scheduleTime');
         NotificationService().scheduleNotification(
-            title: 'Es momento de mandar ese procedimiento!',
+            title: 'Es momento de mandar ese procedimientooooo!',
             body: '$scheduleTime',
             scheduledNotificationDateTime: scheduleTime);
       },
